@@ -1,9 +1,12 @@
 {
   "name": "usedcars",
   "private": true,
-  "version": "0.0.0",
+  "version": "6.10.0",
   "description": "Used car app",
-  "repository": "https://github.com/angular/angular-phonecat",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/angular/angular-phonecat.git"
+  },
   "license": "MIT",
   "devDependencies": {
     "bower": "^1.7.7",
@@ -33,5 +36,14 @@
   },
   "dependencies": {
     "express": "4.15.2"
-  }
+  },
+  "bugs": {
+    "url": "https://github.com/angular/angular-phonecat/issues"
+  },
+  "homepage": "https://github.com/angular/angular-phonecat#readme",
+  "main": "karma.conf.js",
+  "keywords": [
+    "test"
+  ],
+  "author": "Andy"
 }
