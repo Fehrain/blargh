@@ -12,8 +12,4 @@ app.get('/', function(request, response) {
 }).listen(app.get('port'), function() {
     console.log('App is running, server is listening on port ', app.get('port'));
 });
-/*.module('usedCarsStuff', [
-'ngRoute',
-'usedcarslist'
-'usedcarsdetail']);
 
